@@ -49,11 +49,19 @@ function startManager () {
 				console.log("add to product");
 				addProduct();
 				break;
+				case "End Application":
+				endApp();
+				break;
 			}
 
 	});
 
 }	
+
+function endApp () {
+	console.log("Goodbye!");
+	process.exit(0);
+}
 
 function forSale () {
 
@@ -192,7 +200,6 @@ function addProduct () {
 				message:"How many units of the item do you want to add?"
 			}
 		]).then(function(answers){
-			console.log(answers)
 
 			connection.query("INSERT INTO products SET ?", answers, function (error, results, fields) {
 				if (error) throw error;
