@@ -1,6 +1,6 @@
 # Bamazon Customer
 
-A shopping application made through node javascript. Once you run the application, the following will happen:
+A shopping application made through node javascript, and the SQL database. Once you run the application, the following will happen:
 
 - It will print the products in the store with their price.
 
@@ -31,9 +31,15 @@ If the manager selects View Low Inventory, it'll list all the products with less
 
 If the manager selects Add to Inventory, it allows the manager to select a product and add inventory.
 
-If the manager selects Add New Product, it allows the manager to add a new product to the store.
+If the manager selects Add New Product, it allows the manager to add a new product to the store. It gets added to our database.
 
 If the manager selects End Application, it ends the session.
+
+#### Technologies used:
+
+* Node.js
+* MySQL
+* Inquirer.js
 
 ### This is a command line application. To run it:
 
