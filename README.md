@@ -1,4 +1,4 @@
-Bamazon Customer
+# Bamazon Customer
 
 A shopping application made through node javascript. Once you run the application, the following will happen:
 
