@@ -35,7 +35,7 @@ If the manager selects Add New Product, it allows the manager to add a new produ
 
 If the manager selects End Application, it ends the session.
 
-###### This is a command line application. To run it:
+### This is a command line application. To run it:
 
 Clone it on to your computer
 
