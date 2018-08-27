@@ -14,7 +14,6 @@ A shopping application made through node javascript. Once you run the applicatio
 
 - Once the customer makes his transaction, the application will start all over again. The customer can quit at any point.
 
-Example Video: https://streamable.com/ol06c
 
 Bamazon Manager
 
@@ -36,4 +35,11 @@ If the manager selects Add New Product, it allows the manager to add a new produ
 
 If the manager selects End Application, it ends the session.
 
-Example Video: https://streamable.com/1mnmp
+###### This is a command line application. To run it:
+
+Clone it on to your computer
+
+Run ```npm install```
+Then simply run ```node index.js```
+
+Enjoy!
